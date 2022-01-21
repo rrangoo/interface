@@ -42,7 +42,7 @@ namespace @interface
             | System.Windows.Forms.AnchorStyles.Right)));
             this.contentPanel.Location = new System.Drawing.Point(13, 13);
             this.contentPanel.Name = "contentPanel";
-            this.contentPanel.Size = new System.Drawing.Size(1318, 766);
+            this.contentPanel.Size = new System.Drawing.Size(1287, 716);
             this.contentPanel.TabIndex = 0;
             // 
             // buttonPanel
@@ -51,15 +51,15 @@ namespace @interface
             | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonPanel.Controls.Add(this.rightButton);
             this.buttonPanel.Controls.Add(this.leftButton);
-            this.buttonPanel.Location = new System.Drawing.Point(13, 785);
+            this.buttonPanel.Location = new System.Drawing.Point(13, 735);
             this.buttonPanel.Name = "buttonPanel";
-            this.buttonPanel.Size = new System.Drawing.Size(1318, 183);
+            this.buttonPanel.Size = new System.Drawing.Size(1287, 183);
             this.buttonPanel.TabIndex = 1;
             // 
             // rightButton
             // 
             this.rightButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.rightButton.Location = new System.Drawing.Point(1038, 55);
+            this.rightButton.Location = new System.Drawing.Point(1007, 55);
             this.rightButton.Name = "rightButton";
             this.rightButton.Size = new System.Drawing.Size(213, 77);
             this.rightButton.TabIndex = 1;
@@ -82,7 +82,7 @@ namespace @interface
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1343, 980);
+            this.ClientSize = new System.Drawing.Size(1312, 930);
             this.Controls.Add(this.buttonPanel);
             this.Controls.Add(this.contentPanel);
             this.Name = "Form1";

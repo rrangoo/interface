@@ -37,30 +37,33 @@ namespace @interface
             // headerLabel
             // 
             this.headerLabel.AutoSize = true;
-            this.headerLabel.Location = new System.Drawing.Point(49, 40);
+            this.headerLabel.Location = new System.Drawing.Point(2, 0);
+            this.headerLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.headerLabel.Name = "headerLabel";
-            this.headerLabel.Size = new System.Drawing.Size(195, 25);
+            this.headerLabel.Size = new System.Drawing.Size(98, 13);
             this.headerLabel.TabIndex = 0;
             this.headerLabel.Text = "undefined таблица";
             // 
             // table
             // 
             this.table.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.table.Location = new System.Drawing.Point(54, 89);
+            this.table.Location = new System.Drawing.Point(5, 15);
+            this.table.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.table.Name = "table";
             this.table.RowHeadersWidth = 82;
             this.table.RowTemplate.Height = 33;
-            this.table.Size = new System.Drawing.Size(1191, 707);
+            this.table.Size = new System.Drawing.Size(523, 289);
             this.table.TabIndex = 1;
             // 
             // TablePage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.table);
             this.Controls.Add(this.headerLabel);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "TablePage";
-            this.Size = new System.Drawing.Size(642, 417);
+            this.Size = new System.Drawing.Size(530, 306);
             ((System.ComponentModel.ISupportInitialize)(this.table)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

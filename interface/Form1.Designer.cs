@@ -42,7 +42,7 @@ namespace @interface
             | System.Windows.Forms.AnchorStyles.Right)));
             this.contentPanel.Location = new System.Drawing.Point(13, 13);
             this.contentPanel.Name = "contentPanel";
-            this.contentPanel.Size = new System.Drawing.Size(1287, 716);
+            this.contentPanel.Size = new System.Drawing.Size(1061, 588);
             this.contentPanel.TabIndex = 0;
             // 
             // buttonPanel
@@ -51,15 +51,15 @@ namespace @interface
             | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonPanel.Controls.Add(this.rightButton);
             this.buttonPanel.Controls.Add(this.leftButton);
-            this.buttonPanel.Location = new System.Drawing.Point(13, 735);
+            this.buttonPanel.Location = new System.Drawing.Point(13, 607);
             this.buttonPanel.Name = "buttonPanel";
-            this.buttonPanel.Size = new System.Drawing.Size(1287, 183);
+            this.buttonPanel.Size = new System.Drawing.Size(1061, 83);
             this.buttonPanel.TabIndex = 1;
             // 
             // rightButton
             // 
             this.rightButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.rightButton.Location = new System.Drawing.Point(1007, 55);
+            this.rightButton.Location = new System.Drawing.Point(845, 3);
             this.rightButton.Name = "rightButton";
             this.rightButton.Size = new System.Drawing.Size(213, 77);
             this.rightButton.TabIndex = 1;
@@ -70,7 +70,7 @@ namespace @interface
             // leftButton
             // 
             this.leftButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.leftButton.Location = new System.Drawing.Point(74, 55);
+            this.leftButton.Location = new System.Drawing.Point(3, 3);
             this.leftButton.Name = "leftButton";
             this.leftButton.Size = new System.Drawing.Size(213, 77);
             this.leftButton.TabIndex = 0;
@@ -82,7 +82,7 @@ namespace @interface
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1312, 930);
+            this.ClientSize = new System.Drawing.Size(1086, 702);
             this.Controls.Add(this.buttonPanel);
             this.Controls.Add(this.contentPanel);
             this.Name = "Form1";

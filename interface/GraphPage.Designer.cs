@@ -42,23 +42,25 @@ namespace @interface
             this.chart1.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
             this.chart1.Legends.Add(legend1);
-            this.chart1.Location = new System.Drawing.Point(36, 27);
+            this.chart1.Location = new System.Drawing.Point(2, 2);
+            this.chart1.Margin = new System.Windows.Forms.Padding(2);
             this.chart1.Name = "chart1";
             series1.ChartArea = "ChartArea1";
             series1.Legend = "Legend1";
             series1.Name = "Series1";
             this.chart1.Series.Add(series1);
-            this.chart1.Size = new System.Drawing.Size(1113, 674);
+            this.chart1.Size = new System.Drawing.Size(526, 302);
             this.chart1.TabIndex = 0;
             this.chart1.Text = "chart1";
             // 
             // GraphPage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.chart1);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "GraphPage";
-            this.Size = new System.Drawing.Size(1211, 747);
+            this.Size = new System.Drawing.Size(530, 306);
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             this.ResumeLayout(false);
 
